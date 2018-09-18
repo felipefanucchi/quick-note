@@ -1,0 +1,41 @@
+{
+  "name": "quick-notes",
+  "version": "1.0.0",
+  "description": "just for studies case.",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run script\" \"npm run server\" \"npm run sass\"",
+    "server": "lite-server -c bs-config.json",
+    "script": "tsc -w",
+    "sass": "node-sass -w src/scss/main.scss -o dist/css"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/felipefanucchi/quick-note.git"
+  },
+  "keywords": [
+    "Quick",
+    "Note",
+    "TODO",
+    "NOTE",
+    "Typescript",
+    "JS",
+    "ES6+"
+  ],
+  "author": "Felipe Fanucchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/felipefanucchi/quick-note/issues"
+  },
+  "homepage": "https://github.com/felipefanucchi/quick-note#readme",
+  "devDependencies": {
+    "lite-server": "^2.4.0",
+    "node-sass": "^4.9.3",
+    "typescript": "^3.0.3"
+  },
+  "dependencies": {
+    "concurrently": "^4.0.1",
+    "systemjs": "^0.21.4"
+  }
+}

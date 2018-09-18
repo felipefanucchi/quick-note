@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "outFile": "dist/js/app.js",
+        "sourceMap": true,
+        "removeComments": true,
+        "module": "system",
+        "target": "es5"
+    },
+    "include": [
+        "src/js/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
