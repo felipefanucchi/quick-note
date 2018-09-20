@@ -11,7 +11,12 @@
     <script src="dist/system.js"></script>
     <script type="text/javascript">
         SystemJS.config({
-            "defaultJSExtensions": true
+            packages: {
+                'dist/js': {
+                    main: 'app.js',
+                    defaultExtension: 'js'
+                }
+            }
         });
         
         SystemJS.import('dist/js/app.js')

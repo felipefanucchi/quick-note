@@ -2,7 +2,7 @@
     "compilerOptions": {
         "noImplicitAny": true,
         "strictNullChecks": true,
-        "outFile": "dist/js/app.js",
+        "outDir": "dist/js",
         "sourceMap": true,
         "removeComments": true,
         "module": "system",
