@@ -1,0 +1,6 @@
+@import './variables';
+
+body{
+    font-family:map-get($font, primary);
+    padding: 0;
+}

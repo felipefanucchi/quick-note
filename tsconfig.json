@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
-        "noImplicitAny": true,
-        "strictNullChecks": true,
+        "noImplicitAny": false,
+        "strictNullChecks": false,
         "outDir": "dist/js",
         "sourceMap": true,
         "removeComments": true,

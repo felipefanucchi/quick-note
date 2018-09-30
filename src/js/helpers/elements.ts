@@ -1,3 +1,3 @@
 export const elements = {
-    form: document.querySelector('.form')
+    notesContainer: document.querySelector('#notes')
 }

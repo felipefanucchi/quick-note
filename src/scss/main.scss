@@ -1,5 +1,5 @@
-body{
-    background: gold;
-    font-size:100%;
-    
-}
+@import 'helpers/base';
+@import 'helpers/utils';
+// All the modules from the project
+@import 'modules/header/index.scss'; 
+@import 'modules/content/index.scss';

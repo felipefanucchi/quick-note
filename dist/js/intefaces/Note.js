@@ -1,14 +1,10 @@
 System.register([], function (exports_1, context_1) {
     "use strict";
-    var elements;
     var __moduleName = context_1 && context_1.id;
     return {
         setters: [],
         execute: function () {
-            exports_1("elements", elements = {
-                notesContainer: document.querySelector('#notes')
-            });
         }
     };
 });
-//# sourceMappingURL=elements.js.map
+//# sourceMappingURL=Note.js.map
